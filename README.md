@@ -1,20 +1,20 @@
 # Frontend Mentor - Product preview card component solution
 
-This is a solution to the [Product preview card component challenge on Frontend Mentor]
+This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa).
 
 ## Table of contents
 
-- [Overview]
-  - [The challenge]
-  - [Screenshots]
-  - [Links]
-- [My process]
-  - [Built with]
-  - [Continued development]
-  - [Useful resources]
-- [Author]
-- [Acknowledgments]
-
+- [Frontend Mentor - Product preview card component solution](#frontend-mentor---product-preview-card-component-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshots](#screenshots)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+    - [Useful resources](#useful-resources)
+  - [Author](#author)
 
 ## Overview
 
@@ -27,15 +27,15 @@ Users should be able to:
 
 ### Screenshots
 
-![](screenshots\active.png)
-![](screenshots\desktop.png)
-![](screenshots\mobile.png)
+![](screenshots/active.png)
+![](screenshots/desktop.png)
+![](screenshots/mobile.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/poseidon0211-hub/product-preview-card-component-main)
+- Live Site URL: [Live site](https://your-live-site-url.com)
 
 ## My process
 
@@ -46,6 +46,17 @@ Users should be able to:
 - Flexbox
 - Visual Studio Code
 
+### What I learned
+
+- The picture tag is used in HTML to show different images depending on the screen size of the device.
+This helps my website look better on all devices and also makes it load faster on phones by using smaller images.
+
+```html
+<picture>
+      <source srcset="./images/image-product-desktop.jpg" media="(min-width: 600px)">
+      <img src="./images/image-product-mobile.jpg" alt="Perfume image" class="product-image">
+    </picture>
+```
 
 ### Continued development
 
@@ -61,7 +72,7 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@poseidon0211-hub](https://www.frontendmentor.io/poseidon0211-hub)
+- Frontend Mentor - [@poseidon0211-hub](https://www.frontendmentor.io/profile/poseidon0211-hub)
 
 
 ## Acknowledgments
