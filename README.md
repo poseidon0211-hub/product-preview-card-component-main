@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/poseidon0211-hub/product-preview-card-component-main)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/product-preview-card-component-ARdsjM7WzX)
 - Live Site URL: [Live Preview](https://poseidon0211-hub.github.io/product-preview-card-component-main/)
 
 ## My process
